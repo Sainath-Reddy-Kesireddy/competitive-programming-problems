@@ -5,3 +5,5 @@ Total elements = n^2
 So the sum becomes:
 n^2 * n^(p-1) * x^p= n^(p+1) * x^p
 Use fast exponentiation to compute this under modulo 10^9+7.
+Time Complexity: O(log p)
+Space Complexity: O(1)
